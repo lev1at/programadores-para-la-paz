@@ -1,4 +1,8 @@
-Pregunta 1: Respuesta B
-Pregunta 2: Respuesta B
-Pregunta 3: Respuesta B
-Pregunta 4: Respuesta B
+Desarrollar herramientas propias con tecnologías abiertas como Node.js permite a las comunidades asegurar su soberanía tecnológica, manteniendo el control absoluto de sus datos sin depender de plataformas privativas.
+Al basarse en código abierto, se garantiza la transparencia y la auditoría pública, elementos esenciales para generar confianza en la veeduría ciudadana.
+Técnicamente, Node.js optimiza los recursos comunitarios al usar JavaScript tanto en el frontend como en el backend, reduciendo la curva de aprendizaje.
+Además, su arquitectura asíncrona exige poca infraestructura, lo que disminuye drásticamente los costos de servidores. 
+El ecosistema de módulos listos para usar (NPM) facilita integrar funciones complejas como criptografía o gestión de metadatos.
+De este modo, el software se adapta con flexibilidad a las realidades locales, transformando a los ciudadanos de simples consumidores en creadores de soluciones públicas.
+Construir tecnología propia con herramientas como Node.js permite a las comunidades pasar de ser simples consumidoras de tecnología (y sujetos de extracción de datos) a ser creadoras de soluciones públicas, asegurando que las herramientas digitales sirvan al interés común y no a intereses comerciales
+esto tiene un valor ético y práctico inmenso.
