@@ -1,0 +1,10 @@
+En un texto de 8 a 10 líneas, responde
+
+¿Qué relación encuentras entre el uso responsable de la información en internet, la participación ciudadana y la organización del trabajo técnico con herramientas como Git?
+
+
+Dentro del marco de la ciudadanía digital, ser una persona activa y responsable significa algo muy sencillo: leer con atención, verificar lo que consumimos y solo compartir información de carácter confiable, para asi evitar generar ruido y desinformación. Es por esto que Git no resulta solo en una herramienta capaz de almacenar código, es mucho mas, se vuelve asi en un registro publico, honesto y prácticamente imposible de falsificar en cuanto a trabajo en equipo respecta. Cada cambio queda allí, a la vista de todos, con nombre, fecha y explicación.
+
+Al igual que un ciudadano responsable no llega a una discusión gritando opiniones sin fundamento, un buen desarrollador no sube cambios a la mansalva. este propone sus modificaciones con commits claros y bien explicados, estando abierto a que sus compañeros revisen su código. haciendo esto un debate sano en forma de pull request.
+
+El uso de GIT con madurez no solo es "Una buena practica tecnica", se convierte en un reflejo de la democracia digital que sí funciona: un espacio donde cada aporte deja huella, se puede auditar, se construye entre todos y busca el bien del proyecto por encima de las necesidades individuales, al final tanto en internet como un repositorio lo que realmente importa es, la RESPONSABILIDAD, TRANSPARENCIA y el RESPETO POR LA COMUNIDAD.
