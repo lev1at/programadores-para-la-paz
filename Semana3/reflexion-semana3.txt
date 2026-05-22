@@ -1,0 +1,8 @@
+Mantener un registro de cambios con Git es fundamental porque actúa como la "máquina del tiempo" y el diario de vida de un proyecto de software. 
+Permite registrar cada modificación en el código, facilitando la identificación exacta de qué se cambió, cuándo y quién lo hizo. 
+Esto es crucial para solucionar errores rápidamente, ya que si una actualización falla,
+se puede revertir el sistema a una versión estable anterior sin perder trabajo. 
+Además, optimiza el trabajo en equipo mediante ramas independientes, lo que evita que los desarrolladores pisen el código de otros. 
+En proyectos de gestión procesal o legaltech, este registro garantiza la trazabilidad, la transparencia y la integridad de las versiones,
+sirviendo como una auditoría técnica que demuestra que el desarrollo es seguro, organizado y profesional.
+Los desarrolladores pueden probar nuevas tecnologías, algoritmos complejos o reestructuraciones profundas en el código con la total certeza de que, si el experimento falla, regresar al estado anterior requiere un solo comando. No hay riesgo de romper lo que ya funciona de manera estable.
