@@ -1,0 +1,8 @@
+Dominar la terminal cambia completamente la forma en que trabajas como desarrollador.
+De repente, todo fluye mucho más rápido y con mayor precisión que con simples clics en una interfaz gráfica.
+Con unos pocos comandos puedes automatizar tareas aburridas que antes te quitaban tiempo, crear estructuras de carpetas complejas en segundos y tener un control total sobre las rutas de tus archivos.
+Además, cuando trabajas con servidores remotos o proyectos en la nube, la terminal suele ser la única forma real de acceder y gestionarlos.
+Entender cómo moverte entre directorios y organizar tu código desde la línea de comandos no solo hace tu día a día más eficiente, sino que te da una base sólida.
+A partir de ahí es mucho más fácil integrar Git, manejar entornos virtuales y crear scripts de automatización.
+Es una habilidad que, una vez la dominas, no quieres soltar nunca.
+Entender cómo moverse por los directorios y organizar el código desde la terminal no solo optimiza el flujo de trabajo diario, sino que establece la base indispensable para integrar herramientas avanzadas de control de versiones como Git, entornos virtuales y scripts de automatización.
