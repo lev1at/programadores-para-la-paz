@@ -1,0 +1,8 @@
+Las Interfaces de Programación de Aplicaciones (APIs) actúan como puentes digitales que estandarizan el flujo de datos entre diferentes plataformas, permitiendo que las comunidades centralicen y organicen su información de manera eficiente. 
+Al implementar una API común, los reportes de servicios públicos, las alertas vecinales o los datos incidentales generados por los ciudadanos pueden estructurarse en formatos universales. 
+Esto facilita que aplicaciones locales, sitios web comunitarios y servicios de emergencia consuman e interpreten la misma información en tiempo real sin duplicar esfuerzos. 
+Además, permiten automatizar notificaciones críticas, clasificar los reportes por categorías o geolocalización, y filtrar datos duplicados. 
+De este modo, las APIs transforman el caos de la información dispersa en un ecosistema coordinado, facilitando una toma de decisiones colectiva más rápida y precisa ante cualquier eventualidad.
+de manera resumida las APIs actúan como las "tuberías" del flujo de información. 
+Los ciudadanos generan los datos, las APIs los transportan de forma limpia y organizada, y las aplicaciones comunitarias los transforman en mapas, alertas y soluciones visuales para todos.
+priorizando información y enviándola de inmediato a los servicios de emergencia del barrio

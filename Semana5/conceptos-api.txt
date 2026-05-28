@@ -1,0 +1,7 @@
+Esta ruta establece un punto de enlace (puente) en el servidor que escucha peticiones especificas, esta configurado con "app.post", por lo cual no se puede acceder a ella simplemente escribiendo la dirección en el navegador (eso seria get), espera que un cliente le envié datos de forma segura en el cuerpo de la solicitud (body)
+
+Define la dirección (/reporte): es la ubicación exacta en el servidor a la que se debe apuntar la petición; atrapa los datos enviados en la linea "const mesaje = req.body.mesaje;" y extrae la información que el usuario introdujera en el campo llamado "mensaje"
+Responde al cliente con "res.json({....})", el servidor devuelve de forma automática en formato JSON confirmando el éxito de la operación. le dice al usuario "Estado: reporte recibido" haciendo un envió de confirmación de que todo llego bien.
+
+en el contexto de una plataforma comunitaria (para un barrio, una universidad, o una red de ciudadanos), un end points tipo POST a /reporte es fundamental para generar participación activa, podría servir para: reportar incidentes de infraestructura o alertas de seguridad ciudadana, así como PQRS, hasta llegar a la posibilidad de cobijar reportes de vulneración de derechos o convivencia. 
+En resumen, es la puerta de entrada digital para que cualquier miembro de la comunidad levante la mano, comparta una situación que requiera atención y reciba una constancia inmediata de que su reporte ha sido registrado por el sistema.
