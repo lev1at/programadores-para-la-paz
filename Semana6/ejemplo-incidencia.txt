@@ -1,0 +1,10 @@
+El resultado que devuelve el servidor es el siguiente objeto en formato JSON
+{
+  "mensaje": "Incidencia registrada",
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+El servidor recibe el JSON y guarda "Iluminación pública" en la variable tipo, y el texto del reporte en la variable descripción.
+el servidor crea un nuevo objeto donde combina el texto fijo "Incidencia registrada" con las dos variables que acaba de guardar; devuelve con un código de estado 200 OK, confirmando que la incidencia se procesó correctamente.
+Ahora el servidor tiene dos endpoints independientes y limpios: uno para /registro y otro para /incidencia
