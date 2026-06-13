@@ -1,0 +1,9 @@
+Recibir reportes ciudadanos de forma estructurada transforma quejas informales en datos
+accionables y organizados. Al implementar formatos estandarizados como JSON, las
+plataformas tecnológicas pueden automatizar el enrutamiento de incidencias directamente
+a los departamentos encargados sin perder tiempo en lecturas manuales.
+Asimismo, la estructura facilita el análisis estadístico para detectar patrones críticos en la ciudad,
+optimiza la escalabilidad del sistema ante miles de solicitudes simultáneas y reduce la
+ambigüedad exigiendo datos obligatorios precisos. 
+Finalmente, esta consistencia técnica garantiza la interoperabilidad, permitiendo que distintas herramientas y equipos se
+comuniquen con fluidez para resolver los problemas de la comunidad en tiempo récord.
