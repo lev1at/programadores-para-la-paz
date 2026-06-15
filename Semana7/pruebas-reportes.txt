@@ -1,0 +1,10 @@
+El servidor recibe los datos en crudo y este middleware los traduce a un objeto JavaScript, dejándolos accesibles en req.body. toma el tipo y la descripción que enviamos, y calcula el id basándose en el tamaño actual del arreglo reportes (como está vacío, 0 + 1 = 1). El objeto recién creado se guarda en la variable global let reportes. Ahora el arreglo ya no está vacío; tiene un elemento. El servidor te devuelve un JSON confirmando el registro junto con el objeto creado.
+
+Cuando hacemos la petición GET, el servidor va directamente a la memoria RAM donde está guardada la variable reportes.Toma ese arreglo de JavaScript y lo convierte en una cadena de texto con formato JSON. Al consultar la ruta GET después de haber hecho el POST, lo que sucede es que obtenemos el estado actual de la memoria del servidor. dándonos un resultado similar a este:
+[
+  {
+    "id": 1,
+    "tipo": "Falla de red",
+    "descripcion": "El router del segundo piso no da IP."
+  }
+]

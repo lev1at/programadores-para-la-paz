@@ -1,0 +1,36 @@
+Como el arreglo reportes ya tenía un elemento, su longitud (reportes.length) ahora es 1. Al crear el nuevo objeto, el código hace 1 + 1, por lo que automáticamente se le asigna el id: 2 respondiendo de la siguiente manera:
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+}
+Si inmediatamente después hacemos la petición GET, el servidor devolverá la lista completa con los dos reportes acumulados:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+]
+Dos ejemplos a aportar que se podrían registrarse en el sistema seria:
+1. [
+  {
+    "id": 1,
+    "tipo": "Falla de red",
+    "descripcion": "Falla en la Red de Movistar en el barrio nuevo porvenir"
+  }
+]
+2.[
+ {
+  "tipo": "Infraestructura",
+  "descripcion": "Bache de gran tamaño en el carril derecho de la avenida pedro Romero, justo frente al palo de caucho
+}
+]
