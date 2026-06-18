@@ -1,0 +1,9 @@
+aparece la siguiente información al ingresar uname -a: MINGW64_NT-10.0-26200 Dragoncitooo 3.6.7-fb42d713.x86_64 2026-03-29 11:44 UTC x86_64 Msys
+esta diciendo:
+MINGW64_NT-10.0-26200: indica el sistema operativo la base asi como el entorno, 
+MINGW64 significa que me encuentro usando MINIMALIST GNU for Windows 10 o Windows 11,
+Dragoncitooo es el hostname, es decir, el nombre que le puse a mi computadora, 
+por ultimo 3.6.7-fb42d713.x86_64 es la versión de la capa de emulación de MSYS2/Cygwin que permite que los comando de Linux funcionen en Windows, junto a la fecha de compilación
+al ingresar whoami (who am i?)aparece el nombre de: Usuario (Tengo restricciones y probablemente necesite del comando sudo para tareas de rango administrativo)
+Conocer la información del sistema es un equivalente a revisar el tablero de un auto antes de emprender un viaje largo. cuando se administra un servidor, 
+esta información la información se convierte en la primera línea de defensa, y en la  principal herramienta de diagnostico.
