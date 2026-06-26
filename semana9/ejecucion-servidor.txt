@@ -1,0 +1,13 @@
+Al ejecutar este comando en la terminal, Node.js interpreta el archivo y levanta un servidor web local; el framework Express se encarga de abrir un canal de comunicación (un "puerto") en el equipo; el código se queda en un estado "escucha" (`app.listen`), lo que significa que el servidor permanecerá activo de forma indefinida esperando que un usuario haga peticiones a las rutas definidas (`/` y `/estado`).
+
+En cuanto el servidor se inicializa correctamente y el puerto queda libre y listo para recibir peticiones, se ejecuta la función callback dentro de `app.listen`; por lo tanto, se vera exactamente este mensaje en la consola:
+
+Servidor ejecutándose en puerto 3000
+
+al abrir el navegador e ingresar a `http://localhost:3000/estado`, se esta enviando una petición de tipo GET a esa ruta específica; el servidor procesa la solicitud mediante el método `app.get('/estado', ...)` y responde utilizando `res.json()`. la pantalla del navegador se evidencia una respuesta en formato JSON, así:
+
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
+
