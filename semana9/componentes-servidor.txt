@@ -1,0 +1,21 @@
+Sistema operativo:
+El sistema operativo el software base que administra todo el hardware de la computadora, 
+encargado a su vez de brindar el entorno seguro así como los recursos necesarios para que programas como Node.js puedan ejecutarse.
+
+Node.js:
+Es un entorno de ejecución que permite correr código JavaScript directamente desde el equipo, fuera del navegador. 
+funciona como el motor que traduce el archivo server.js en instrucciones que el sistema operativo puede entender.
+
+Aplicación (server.js)
+Es el archivo con el código que define cómo responde e servidor ante las peticiones de los usuarios. Actuando como el cerebro del servicio, 
+estableciendo las rutas y las respuestas que se enviarán al navegador.
+
+Puerto
+Es como una puerta enumerada por donde el servidor recibe y envía información en este caso, estamos utilizando el 3000. 
+Permitiendo que múltiples servicios puedan funcionar al mismo tiempo en la misma computadora sin interferir entre sí.
+
+Logs 
+Son los mensajes de registro (como el console log)
+que la aplicación o el sistema imprimen en la terminal.
+Funcionan como un historial en tiempo real que ayudan a saber si el servidor se encuentra corriendo correctamente o rastrear errores cuando algo falla.
+

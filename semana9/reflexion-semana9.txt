@@ -1,0 +1,8 @@
+La estabilidad y seguridad de un servidor constituyen la columna vertebral de cualquier ecosistema digital comunitario;
+una operación estable asegura que los servicios estén siempre disponibles, eliminando así barreras de acceso y evitando la pérdida de momentum en la interacción grupal.  
+La continuidad en el funcionamiento evita la frustración de los usuarios, quienes requieren necesitan respuestas de caracter eficientes y fiables para poder confiar en el medio como canal principal de comunicación.  
+En cuanto a la seguridad, un servidor robusto actúa como un baluarte que protege la integridad de los datos personales y las conversaciones privadas de los miembros,  
+la prevención de ciberataques y filtraciones no solo es un imperativo ético, sino también un requisito legal ante normativas como el GDPR;
+una vulneración de seguridad no solo compromete información sensible, sino que es capaz de resquebrajar la credibilidad ganada durante los años de trabajo colectivo.  
+La combinación de estabilidad y seguridad crea un entorno predecible y confiable, fomentando una participación más activa y el crecimiento orgánico de la comunidad;  
+en resumen, invertir en un servidor estable y seguro es salvaguardar el patrimonio intangible de la comunidad y garantizar su viabilidad en el tiempo.
