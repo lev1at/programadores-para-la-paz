@@ -1,0 +1,65 @@
+Para que la plataforma sea accesible y fácil de usar, la interfaz debe organizarse de forma visualmente limpia, separando la zona de creación de la zona de exploración.
+
+🏗️ Estructura de la Interfaz (Mockup Textual)
+
+```text
+===========================================================================
+ ¡ComunidadActiva!                                         [ Perfil: Ana M. ]
+===========================================================================
+
+ [ + ] PROPONER UNA NUEVA CAUSA
+ -------------------------------------------------------------------------
+  Título de la causa:  [ Escribe un título claro y corto...              ]
+  Categoría:           ( ) Medio Ambiente  ( ) Educación  ( ) Urbanismo
+  Descripción:         [ Explica detalladamente de qué trata tu causa... ]
+                       [                                                 ]
+                       
+                       [ Publicar Causa ]
+ -------------------------------------------------------------------------
+
+ 📢 CAUSAS DISPONIBLES EN TU COMUNIDAD
+ =========================================================================
+ 
+  📌 Limpieza del Parque Central
+  Categoría: Medio Ambiente | Publicado por: Carlos P.
+  Estamos organizando una jornada para recoger basura y pintar las bancas
+  este sábado de 8am a 12pm. ¡Trae tus guantes!
+  -----------------------------------------------------------------------
+  ❤️ 42 personas apoyan esto                     [ 👍 Apoyar esta causa ]
+ 
+ =========================================================================
+ 
+  📌 Biblioteca Comunitaria Ambulante
+  Categoría: Educación | Publicado por: Sofía R.
+  Queremos crear un intercambio de libros en la plaza principal para que 
+  los niños tengan acceso a nuevas lecturas los fines de semana.
+  -----------------------------------------------------------------------
+  ❤️ 128 personas apoyan esto                    [ 👍 Apoyar esta causa ]
+
+===========================================================================
+
+```
+
+Desglose de Componentes y Privacidad
+
+1. Formulario para Crear una Causa
+
+Ubicado en la parte superior para incentivar la participación.
+
+Campos: Un cuadro de texto para el Título, un menú de selección para la Categoría y un área de texto grande para la Descripción.
+Acción: Al hacer clic en el botón "Publicar Causa", el sistema vincula automáticamente el proyecto con el ID del usuario que inició sesión, sin necesidad de pedirle sus datos otra vez.
+
+2. Vista de Causas Disponibles
+
+Un muro público o feed principal donde se despliegan las iniciativas en formato de tarjetas individuales ordenadas por fecha o relevancia.
+
+3. Contador y Botón de Apoyo
+
+Cada tarjeta de causa incluye su propia sección de interacción en la parte inferior:
+
+El Contador:Muestra la suma total de registros de la entidad `Apoyo` asociados a esa causa (ej. "128 personas apoyan esto").
+El Botón: Un botón claro de "Apoyar esta causa". Si el usuario ya la apoyó, el botón cambia de estado (por ejemplo, a un color gris que dice "Apoyado"), permitiendo también retirar el apoyo si cambia de opinión.
+
+Filtro de Privacidad
+
+Como regla estricta de diseño, la interfaz solo muestra datos públicos: el título de la causa, la descripción, la categoría y el nombre público del creador (o un alias como "Ana M."). Los correos electrónicos, identificadores de bases de datos (id), contraseñas y tokens de sesión trabajan en el fondo del sistema y nunca se exponen en la pantalla para proteger la privacidad de los vecinos.
