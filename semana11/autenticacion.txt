@@ -1,0 +1,6 @@
+El login es la puerta de acceso que identifica a un usuario para ofrecerle sus funciones y datos personalizados.
+Tras cruzarla, existen rutas protegidas que deben mantenerse ocultas del público general, ya que contienen
+paneles de administración, registros internos o acciones críticas que comprometerían el sistema si se manipulan.
+En estas zonas seguras se resguarda la información confidencial que jamás debe exponerse públicamente.
+Hablamos de contraseñas, tokens de acceso, documentos de identidad, teléfonos y claves de API de la plataforma.
+Proteger estos pilares es vital para garantizar la privacidad, la confianza y la seguridad de toda la comunidad.

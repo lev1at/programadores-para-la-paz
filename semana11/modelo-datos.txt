@@ -1,0 +1,58 @@
+Entidad: Usuario
+
+Una plataforma comunitaria sin miembros es solo un desierto digital. Necesitamos saber quién es quién.
+
+Campos principales:
+	>`id` (Clave primaria, único)
+	>`nombre` (Texto)
+	>`email` (Texto, único)
+	>`fecha_registro` (Fecha/Hora)
+	>`rol` (Texto: ej. "ciudadano", "administrador")
+
+Propósito:
+	>Identificar a los miembros de la comunidad, gestionar sus perfiles y permitirles interactuar de forma segura en la plataforma.
+
+Entidad: Causa
+
+El núcleo de la plataforma: los proyectos, quejas o iniciativas que la comunidad quiere impulsar.
+
+Campos principales:
+	>`id` (Clave primaria, único)
+	>`creador_id` (Clave foránea, conecta con `Usuario.id`)
+	>`titulo` (Texto corto)
+	>`descripcion` (Texto largo)
+	>`categoria` (Texto: ej. "Medio ambiente", "Educación")
+	>`fecha_creacion` (Fecha/Hora)
+	>`estado` (Texto: ej. "Activa", "Lograda", "Cancelada")
+
+Propósito:
+	> Almacenar y organizar las propuestas comunitarias para que sean visibles, filtrables y gestionables en la interfaz.
+
+Entidad: Apoyo
+
+La prueba social. Aquí es donde medimos el impacto y el interés real de la comunidad por una causa.
+
+Campos principales:
+	>`id` (Clave primaria, único)
+	>`causa_id` (Clave foránea, conecta con `Causa.id`)
+	>`usuario_id` (Clave foránea, conecta con `Usuario.id`)
+	>`fecha_apoyo` (Fecha/Hora)
+
+
+Propósito:
+	> Registrar qué usuario apoya qué causa. Al vincular el `usuario_id`, el sistema puede validar que una persona no vote 50 veces por la misma iniciativa.
+
+Entidad: Comentario
+
+Porque la comunidad necesita debatir, aportar ideas y coordinar acciones.
+
+Campos principales:
+	>`id` (Clave primaria, único)
+	>`causa_id` (Clave foránea, conecta con `Causa.id`)
+	>`usuario_id` (Clave foránea, conecta con `Usuario.id`)
+	>`contenido` (Texto largo)
+	>`fecha_publicacion` (Fecha/Hora)
+
+
+Propósito:
+	> Fomentar la conversación y el feedback directo sobre las causas, creando un histórico de la evolución del proyecto.
