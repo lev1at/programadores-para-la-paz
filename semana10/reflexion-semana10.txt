@@ -1,0 +1,9 @@
+El trabajo de esta semana demostró que una solución tecnológica comunitaria requiere orden antes que código.
+Al usar metodologías ágiles y priorizar el backlog, identificamos las funciones mínimas para activar el sistema.
+Establecer una definición de terminado clara asegura la calidad del desarrollo y la trazabilidad de los cambios.
+Por otro lado, entendimos que la participación ciudadana es el motor del proyecto, pero exige cuidar la privacidad.
+La integración de n8n con Telegram ejemplifica cómo la automatización conecta a los veedores sin exponer datos sensibles.
+Esta combinación reduce los tiempos de respuesta y mantiene informada a la comunidad de manera eficiente y segura.
+Al final, logramos vincular las necesidades reales del territorio con un flujo de trabajo técnico y estructurado.
+El ejercicio cierra la brecha entre la planeación de software y el impacto directo en el control social.
+Así, la tecnología se convierte en un puente transparente que facilita la veeduría y fortalece la confianza colectiva.

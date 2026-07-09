@@ -1,0 +1,24 @@
+Flujo de Automatización:
+
+Este flujo ayuda al equipo coordinador a enterarse inmediatamente cuando un problema de la comunidad se vuelve urgente sin necesidad de estar revisando la plataforma constantemente.
+
+1. ¿Qué evento activa el flujo? 
+
+El flujo se activa mediante un nodo de Webhook o un nodo de Base de Datos en n8n. El evento específico es "Un reporte ciudadano que alcanza los 20 apoyos (votos) de los vecinos".
+
+2. ¿Qué mensaje se enviaría a Telegram?
+
+El nodo de Telegram enviará un mensaje automatizado al grupo privado de los coordinadores de la veeduría con el siguiente formato:
+
+	> ¡ALERTA DE PRIORIDAD!
+		> El reporte #415 ("Falta de iluminación en parque infantil") ha superado los 20 apoyos de la comunidad.
+		> Sector: Comuna 4 - Barrio Central
+		> Fecha de creación: 08/07/2026
+
+3. ¿Qué información NO debe enviarse por seguridad?
+
+Para proteger la privacidad de los usuarios y cumplir con las normativas de protección de datos, nunca debemos incluir en el mensaje de Telegram:
+
+> Datos de identificación: Nombre completo, cédula/DNI, correo electrónico o teléfono del ciudadano que creó el reporte.
+> Ubicaciones exactas: Direcciones domiciliarias específicas (por ejemplo, "frente a la casa de la familia Pérez" o "Calle 10 #4-12"). Es mejor usar el nombre del sector, barrio o parque.
+> Datos técnicos del sistema: Claves de acceso, tokens de la API o URLs internas del servidor que exponen la seguridad de la plataforma.

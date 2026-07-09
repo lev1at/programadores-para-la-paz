@@ -1,0 +1,19 @@
+Las 2 tareas que haría primero:
+
+1. Crear la opción para que el ciudadano reporte un problema.
+2. Crear la opción para que el veedor cambie el estado del reporte de "En revisión" a "Solucionado".
+
+Porque al juntarlas forman el núcleo del sistema o Producto Mínimo Viable (MVP). Sin la primera tarea, 
+la plataforma está vacía porque nadie puede ingresar datos. Sin la segunda, el ciudadano no recibe respuesta y la veeduría no existe. 
+Estas dos funciones activan un canal de comunicación básico.
+
+
+
+Qué significa que una tarea esté "terminada":
+Significa que la funcionalidad es real, es estable, cumple con lo prometido al usuario y no deja deuda técnica ni pendientes para el equipo.
+
+Criterios:
+
+1. Funciona y cumple: El usuario puede completar la acción propuesta en la historia sin errores.
+2. Fue probada y revisada: El código pasó las pruebas de funcionamiento y otro miembro del equipo lo revisó para asegurar que está bien hecho.
+3. Quedó integrada: El código está subido a la rama principal de Git y la base de datos se actualizó para soportar el cambio.

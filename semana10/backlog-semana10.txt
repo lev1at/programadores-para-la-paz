@@ -1,0 +1,17 @@
+Historias de usuario
+
+1. Como ciudadano quiero reportar un problema comunitario  para dejar una evidencia clara del caso.
+2. Como veedor quiero cambiar el estado de un reporte de "En revisión" a "Solucionado" para mantener informada a la comunidad sobre el avance.
+3. Como habitante del sector quiero ver un mapa con las incidencias de mi zona para conocer qué problemas ya se están gestionando y evitar duplicar reportes.
+4. Como coordinador de la veeduría quiero recibir una alerta automática cuando un reporte sume más de 20 apoyos de los vecinos para identificar y priorizar los casos más urgentes.
+
+Orden de prioridad (de mayor a menor)
+
+1. Prioridad Alta: Historia 1 
+Es la funcionalidad base del sistema. Sin la capacidad de recibir reportes y evidencias de los ciudadanos, la solución de veeduría no puede funcionar.
+2. Prioridad Media-Alta: Historia 2 
+Es fundamental para cerrar el ciclo de comunicación. Permite que los ciudadanos confíen en el sistema al ver que su denuncia avanza y se gestiona.
+3. Prioridad Media: Historia 3 
+Mejora la experiencia del usuario y organiza la información de la comunidad, aunque depende directamente de que las dos primeras historias ya estén funcionando y alimentando la base de datos.
+4. Prioridad Baja: Historia 4 
+Es una característica de optimización. Ayuda al equipo a gestionar el volumen de trabajo de forma eficiente, pero el sistema puede operar al principio mediante una revisión manual.
