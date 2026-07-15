@@ -1,0 +1,27 @@
+1. Entidad: Causa
+
+Esta entidad funciona como el catálogo de iniciativas de la plataforma. Es donde se guarda el "qué" de la participación ciudadana.
+
+Campos:
+	>`id`: Identificador único de la causa (clave primaria).
+	>`titulo`: Nombre o frase corta que resume la iniciativa.
+	>`descripcion`: Detalle de lo que se busca lograr o el problema a resolver.
+	>`fecha`: Día y hora en que se publicó la propuesta.
+
+
+¿Para qué sirve?
+	**//Su propósito es almacenar, organizar y mostrar todas las propuestas, quejas o proyectos que los ciudadanos proponen. Sin esta entidad, la plataforma no tendría contenido que mostrar a los visitantes.
+
+2. Entidad: Apoyo
+
+Esta entidad registra la interacción de la comunidad. Es el puente que une a las personas con las causas que les interesan.
+
+Campos:
+	>`id`: Identificador único del voto o firma de apoyo (clave primaria).
+	>`causa_id`: El identificador de la causa que se está respaldando (clave foránea que conecta con `Causa.id`).
+	>`nombre`: Nombre de la persona que brinda su apoyo.
+	>`fecha`: Día y hora en que se registró el apoyo.
+
+
+¿Para qué sirve?
+	**//Sirve para llevar la cuenta de cuántas personas respaldan cada iniciativa. Al usar el campo `causa_id`, el sistema sabe exactamente a qué proyecto sumarle el voto, permitiendo medir el impacto y la popularidad de cada 	propuesta de manera organizada.

@@ -1,0 +1,8 @@
+Durante este trayecto, aprendí que la tecnología es un puente poderoso para transformar la apatía en acción colectiva organizada.
+Comprendí que un diseño de datos sólido, que conecte usuarios con causas y apoyos reales, es la base de cualquier plataforma confiable.
+La seguridad no es opcional: el login y el resguardo de datos sensibles son indispensables para construir verdadera confianza ciudadana.
+Además, una interfaz limpia y clara garantiza que cualquier vecino, sin importar su nivel técnico, pueda proponer ideas y participar.
+Flujos innovadores como la "Petición en 3 Clics" simplifican la burocracia, traduciendo firmas digitales en documentos PDF formales.
+Por otro lado, la automatización con n8n y Telegram demuestra que podemos mantener informada a la comunidad de forma ágil y segura.
+Al final, la tecnología cívica no se trata de bases de datos complejas, sino de facilitar la comunicación y el debate seguro.
+Se trata de entregar a las personas herramientas sencillas para organizarse, incidir en su entorno y exigir mejoras en sus comunidades.

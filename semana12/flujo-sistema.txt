@@ -1,0 +1,7 @@
+El sistema de "Petición en 3 Clics" permite pasar de una idea ciudadana a un documento con un mínimo viable de formalidad de manera rápida y automatizada. Así describiría yo el flujo en 5 pasos simples:
+
+1. Creación de la causa (Clic 1): El ciudadano inicia sesión, escribe el título y descripción de su propuesta, y hace clic en "Publicar" para registrarla en la base de datos de la plataforma.
+2. Difusión comunitaria: La causa se vuelve visible en el muro público para que otros vecinos puedan leerla y conocer la iniciativa.
+3. Suma de respaldos (Clic 2): Los ciudadanos interesados hacen clic en el botón "Apoyar esta causa", lo que registra su voto en la base de datos y aumenta el contador de la propuesta en tiempo real.
+4. Generación del documento (Clic 3): Al alcanzar una meta de firmas o por decisión del creador, este hace clic en "Generar Petición", activando la creación automática del archivo.
+5. Descarga del PDF: El sistema procesa la información, genera un documento PDF formal con el texto de la causa y el listado consolidado de apoyos, dejándolo listo para descargar y presentar ante las autoridades.

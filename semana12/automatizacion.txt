@@ -1,0 +1,21 @@
+Evento que activa la automatización (Trigger)
+
+Nueva causa publicada: El flujo en n8n se activa automáticamente en el instante en que un ciudadano completa el formulario de la plataforma y la nueva causa queda registrada con éxito en la base de datos.
+
+> Mensaje que se envía por Telegram
+
+	nodo de Telegram en n8n envía un mensaje automático al canal público de la comunidad con el siguiente formato:
+
+-Nueva causa comunitaria creada!
+-Título: [Título de la causa]
+-Categoría: [Categoría]
+-Propuesta: [Breve descripción o resumen]
+>¡Entra a la plataforma para apoyarla y debatir!
+
+Información que NO debe enviarse por seguridad
+	
+para proteger la privacidad de los usuarios y cumplir con las normativas de protección de datos, n8n debe filtrar y omitir los siguientes campos en el mensaje de Telegram:
+
+>Datos personales del creador: Correo electrónico, teléfono, dirección física o número de documento de identidad (cédula).
+>Credenciales y tokens: ID de usuario del sistema, tokens de sesión o contraseñas.
+>Comentarios moderados: Mensajes internos de revisión o reportes de usuarios sobre la publicación.
